@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body{
+    background-color: #23252C;
+    max-width: 320px;
+    text-align: center;
+    color: #DCDCDC;
+    margin: auto;
+    
+    
+}
+.image-container{
+    margin-top: 45px;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    
+    background-color: #23252C;
+    
+
+    
+}
+
+.image-container >img{
+    position: absolute;
+    top: -50px;
+    left: 0px;
+     
+}
+
+.container{
+    background-color: #1A1B21;
+}
+
+.profile-pic{
+    width: 100%;
+    
+}
+.social-media-icons{
+    padding: 20px 75px 20px 75px;
+    background-color: #161619;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-icons .fa-brands{
+    font-size: 25px;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 35px;
+}
+
+.about-me h4{
+    font-weight: 700;
+    font-size: 16px;
+}
+.about-me p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: -15px 0 0 0;
+}
+#lastPara{
+    margin-bottom: 25px;
+}
+
+.header-btn-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px
+}
+#email{
+    background: white;
+    color: black;
+    padding:9px 13px 9px 11px;
+    width: 115px;
+    border-radius: 5px;
+}
+
+#linkedIn{
+    background: #5093E2;
+    color: black;
+    padding:9px 13px 9px 11px;
+    width: 115px;
+    border-radius: 5px;
+}
+.header-btn-container>a>i{
+    margin-right: 8px;
+}
+
+#profileEmail{
+    font-size: 10.24px;
+}
+#profileDesc{
+    font-size: 12.8px;
+    color: #F3BF99;
+    margin-top: -4px
+}
+#profile-name{
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-bottom: 6px;
+}
+.social-media-icons{
+    margin-bottom: 50px;
+
+    
+}
+a:visited,
+a:active,
+a:focus {
+    color: inherit;
+}
+a{
+     text-decoration: none;
+}
